@@ -6,6 +6,7 @@ on: push
 env:
   GODOT_VERSION: 4.3
   EXPORT_NAME: website
+  PROJECT_PATH: "."
 
 jobs:
   export-web:
@@ -39,5 +40,5 @@ jobs:
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          branch: main # The branch the action should deploy to.
+          branch: master # The branch the action should deploy to.
           folder: build/web # The folder the action should deploy.
