@@ -1,9 +1,0 @@
-[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://57s0u1c1iccy"]
-
-[ext_resource type="Shader" path="res://gradient.gdshader" id="1_hwqvi"]
-
-[resource]
-shader = ExtResource("1_hwqvi")
-shader_parameter/strength = 0.8
-shader_parameter/speed = 0.1
-shader_parameter/angle = 25.0
