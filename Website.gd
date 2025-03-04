@@ -3,6 +3,10 @@ extends Control
 var isRunningOnMobile: bool = false
 
 func _ready() -> void:
+	DisplayServer.window_set_title("Antonios Vatousis")
+	# Window.set_title("Anthony Vatousis")
+	get_window().set_title("Antonios Vatousis")
+
 	# Basic Check for Mobile
 	if OS.has_feature("web_android") or OS.has_feature("web_ios") or OS.has_feature("android") or OS.has_feature("ios"):
 		print_debug("Running on Mobile")
@@ -14,11 +18,11 @@ func _ready() -> void:
 	%HTTPRequest.request_completed.connect(self._http_request_completed)
 
 	# Perform the HTTP request. The URL below returns a PNG image as of writing.
-	var error = %HTTPRequest.request("https://avatars.githubusercontent.com/u/25984671?v=4")
+	var error = %HTTPRequest.request("https://avatars.githubusercontent.com/u/25984671?v=3")
 	if error != OK:
 		push_error("An error occurred in the HTTP request.")
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	# print_debug(DisplayServer.window_get_size())
 	if DisplayServer.window_get_size().x < 800 or isRunningOnMobile:
 		%MobileView.visible = true
@@ -36,7 +40,7 @@ func _process(delta: float) -> void:
 
 
 # Called when the HTTP request is completed.
-func _http_request_completed(result, response_code, headers, body):
+func _http_request_completed(result, _response_code, _headers, body) -> void:
 	if result != HTTPRequest.RESULT_SUCCESS:
 		push_error("Image couldn't be downloaded. Try a different image.")
 
@@ -60,3 +64,6 @@ func _on_github_pressed() -> void:
 
 func _on_blog_pressed() -> void:
 	OS.shell_open("https://antv199.github.io/blog/")
+
+func _on_fake_home_button_pressed() -> void:
+	%AnimationPlayer.play("home_button")
