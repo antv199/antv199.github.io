@@ -61,9 +61,13 @@ func _on_linkedin_pressed() -> void:
 
 func _on_github_pressed() -> void:
 	OS.shell_open("https://github.com/antv199")
+	
+func _on_gitlab_pressed() -> void:
+	OS.shell_open("https://gitlab.com/anthonyv159")
 
 func _on_blog_pressed() -> void:
 	OS.shell_open("https://antv199.github.io/blog/")
+
 
 func _on_fake_home_button_pressed() -> void:
 	%AnimationPlayer.play("home_button")
