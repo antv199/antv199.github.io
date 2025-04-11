@@ -26,7 +26,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Navbar/NavbarHorContainer/Blog:disabled")
+tracks/1/path = NodePath("Navbar/NavbarHorContainer/Knowledge Base:disabled")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -65,7 +65,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Navbar/NavbarHorContainer/Blog:disabled")
+tracks/1/path = NodePath("Navbar/NavbarHorContainer/Knowledge Base:disabled")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -136,10 +136,10 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Home"
 
-[node name="Blog" type="Button" parent="Navbar/NavbarHorContainer"]
+[node name="Knowledge Base" type="Button" parent="Navbar/NavbarHorContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
-text = "Blog"
+text = "Knowledge Base"
 
 [node name="ProfileView" type="Panel" parent="."]
 layout_mode = 1
@@ -285,7 +285,7 @@ libraries = {
 }
 
 [connection signal="pressed" from="Navbar/NavbarHorContainer/FakeHomeButton" to="." method="_on_fake_home_button_pressed"]
-[connection signal="pressed" from="Navbar/NavbarHorContainer/Blog" to="." method="_on_blog_pressed"]
+[connection signal="toggled" from="Navbar/NavbarHorContainer/Knowledge Base" to="." method="_on_kb_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/LinkedinDesk" to="." method="_on_linkedin_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/Github" to="." method="_on_github_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/Gitlab" to="." method="_on_gitlab_pressed"]
