@@ -26,22 +26,10 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Navbar/NavbarHorContainer/Knowledge Base:disabled")
+tracks/1/path = NodePath("Navbar:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Navbar:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -65,22 +53,10 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Navbar/NavbarHorContainer/Knowledge Base:disabled")
+tracks/1/path = NodePath("Navbar:rotation")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [true, false]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Navbar:rotation")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
 "times": PackedFloat32Array(0, 0.5, 1),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
@@ -136,7 +112,7 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Home"
 
-[node name="Knowledge Base" type="Button" parent="Navbar/NavbarHorContainer"]
+[node name="KnowledgeBaseButton" type="Button" parent="Navbar/NavbarHorContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Knowledge Base"
@@ -285,7 +261,7 @@ libraries = {
 }
 
 [connection signal="pressed" from="Navbar/NavbarHorContainer/FakeHomeButton" to="." method="_on_fake_home_button_pressed"]
-[connection signal="toggled" from="Navbar/NavbarHorContainer/Knowledge Base" to="." method="_on_kb_pressed"]
+[connection signal="pressed" from="Navbar/NavbarHorContainer/KnowledgeBaseButton" to="." method="_on_kb_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/LinkedinDesk" to="." method="_on_linkedin_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/Github" to="." method="_on_github_pressed"]
 [connection signal="pressed" from="ProfileView/DesktopView/VBoxContainer/ButtonsContainer/Gitlab" to="." method="_on_gitlab_pressed"]
