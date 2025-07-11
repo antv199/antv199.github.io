@@ -1,0 +1,58 @@
+site_name: antv199
+
+nav:
+ - Home: "index.md"
+ - My Knowledge Base: "https://antv199.github.io/knowledge-base"
+ - Projects:
+    - Websites:
+       - Movie Tracking: "projects/websites/movie-tracking.md"
+
+theme:
+ features:
+    - navigation.top
+ name: material
+ palette:
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+#  palette: gruvbox_dark
+#  features:
+#   - navigation.side.indexes
+#   - revision.date
+#   - revision.history
+markdown_extensions:
+ - toc:
+    # baselevel: "3"
+    toc_depth: "3"
+    permalink: "#"
+
+ - pymdownx.caret
+ - pymdownx.mark
+ - pymdownx.tilde
+ - pymdownx.superfences
+ - pymdownx.highlight
+ - pymdownx.inlinehilite
+
+ - pymdownx.blocks.details:
+    types:
+     - name: info
+       class: terminal-alert
+       title: Info
+     - name: warning
+       class: "terminal-alert terminal-alert-error"
+       title: Warning
+     - name: important
+       class: "terminal-alert terminal-alert-primary"
+       title: Important
+
+plugins:
+  - privacy
