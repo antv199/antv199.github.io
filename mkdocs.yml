@@ -53,6 +53,3 @@ markdown_extensions:
      - name: important
        class: "terminal-alert terminal-alert-primary"
        title: Important
-
-plugins:
-  - privacy
