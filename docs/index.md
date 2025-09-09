@@ -11,7 +11,7 @@ Sometimes, I contribute to open source projects, such as:
 * [Weblate](https://www.kaggle.com/antv159)
 * [Crowdin](https://crowdin.com/profile/antv199)
 
-Some of the projects I contributed translation to are:
+Some of the projects I contributed translations to are:
 * [Godot Engine](https://hosted.weblate.org/projects/godot-engine/)
 * [SimpleX Chat](https://hosted.weblate.org/projects/simplex-chat/)
 * [Session](https://crowdin.com/project/session-crossplatform-strings)
