@@ -1,18 +1,47 @@
-# Welcome to my website!
+# Antonios Vatousis
 
-Hi, I'm Anthony and I decided to make this website (in a form of a documentation site) to showcase my projects.
+### Junior IT Engineer | SysAdmin Enthusiast | Data Operations
 
-* [LinkedIn](https://www.linkedin.com/in/anthony-vatousis/)
-* [GitHub](https://github.com/antv199)
-* [GitLab](https://gitlab.com/anthonyv159)
+Welcome to my digital portfolio and documentation hub. I am an undergraduate student at the **University of Ioannina (Department of Informatics & Telecommunications)** with a hands-on approach to technology.
 
-Sometimes, I contribute to open source projects, such as:
+My focus isn't just on writing code, but on understanding the infrastructure that runs it. I document my journey, my fixes, and my projects to bridge the gap between theory and real-world application.
 
-* [Weblate](https://hosted.weblate.org/user/antv199/)
-* [Crowdin](https://crowdin.com/profile/antv199)
+---
 
-Some of the projects I contributed translations to are:
+## 🚀 What I Do
 
-* [Godot Engine](https://hosted.weblate.org/projects/godot-engine/)
-* [SimpleX Chat](https://hosted.weblate.org/projects/simplex-chat/)
-* [Session](https://crowdin.com/project/session-crossplatform-strings)
+* **System Administration:** Managing Linux (Debian/Ubuntu) environments, Docker containers, and Self-Hosted services (Home-Lab).
+* **Data & Backend:** Building REST APIs (Node.js), managing Databases (MySQL), and automating data reporting (Excel/ERP).
+* **Open Source:** contributing to the localization of privacy-focused tools.
+
+---
+
+## 📂 Key Sections
+
+### [📚 My Knowledge Base](knowledge-base/)
+*The core of this website.* A collection of technical notes, troubleshooting guides, and documentation for Linux, Docker, and various software setups.
+
+### [🎬 Project: Movie Tracking App](projects/websites/movie-tracking/)
+A Full Stack web application (Node.js & MySQL) for tracking movies and TV series, featuring user authentication and gamification.
+
+---
+
+## 🌐 Connect & Code
+
+You can find me and my code repositories here:
+
+* **LinkedIn:** [Antonios Vatousis](https://www.linkedin.com/in/anthony-vatousis/)
+* **GitHub:** [antv199](https://github.com/antv199)
+* **GitLab:** [antv199](https://gitlab.com/anthonyv159)
+
+---
+
+## 🌍 Open Source Contributions
+
+I actively contribute to the **Greek localization (L10n)** of various open-source and privacy-focused projects via Crowdin and Weblate.
+
+**Recent Contributions:**
+* **Self-Hosting:** Kavita, NextDNS
+* **Privacy & Comms:** Session, SimpleX Chat, Mumble, InviZible Pro
+* **Dev & Gaming:** Godot Engine, Prism Launcher
+* **Utilities:** uBlock Origin
