@@ -8,6 +8,8 @@ nav:
        - Movie Tracking: "projects/websites/movie-tracking.md"
     - Apps:
        - Cooking App: "projects/apps/cooking-app.md"
+    - IoT & Embedded:
+       - Environment Monitor: "projects/embedded/enviroment-monitor.md"
 
 theme:
  features:
