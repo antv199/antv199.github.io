@@ -6,6 +6,8 @@ nav:
  - Projects:
     - Websites:
        - Movie Tracking: "projects/websites/movie-tracking.md"
+    - Apps:
+       - Cooking App: "projects/apps/cooking-app.md"
 
 theme:
  features:
