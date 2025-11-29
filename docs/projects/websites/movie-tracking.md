@@ -13,7 +13,7 @@ hide:
 ## About
 As part of a university assignment, this project is a website for tracking movies and TV series. Users can create personal watchlists, rate and review content, and receive personalized recommendations.
 
-The platform features gamification elements such as badges, achievements, and leaderboards, as well as interface customization options like dark/light mode.
+The platform features gamification elements such as badges, achievements, and leaderboards, as well as interface customization options like dark and light modes.
 
 Built with React.js, Node.js, Express.js, and MySQL/MariaDB, it offers secure user authentication, viewing statistics, and graphical analytics to enhance the user experience.
 
