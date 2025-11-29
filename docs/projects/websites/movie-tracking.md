@@ -1,54 +1,66 @@
 ---
 hide:
-    - revision_date
-    - revision_history
+  - revision_date
+  - revision_history
 ---
 
-# Movie Tracking Website
+# 🎬 Movie Tracking Platform
 
+* **Type**: Full Stack Web Application
 * **Status**: Finished
 * **Year**: 2025
-* **Link**: [GitHub Repository](https://github.com/KostasNikolaou23/Website-Project)
+* **Repository**: [View Source Code on GitHub](https://github.com/KostasNikolaou23/Website-Project)
 
-## About
-As part of a university assignment, this project is a website for tracking movies and TV series. Users can create personal watchlists, rate and review content, and receive personalized recommendations.
+---
 
-The platform features gamification elements such as badges, achievements, and leaderboards, as well as interface customization options like dark and light modes.
+## 📖 Project Overview
 
-Built with React.js, Node.js, Express.js, and MySQL/MariaDB, it offers secure user authentication, viewing statistics, and graphical analytics to enhance the user experience.
+This project is a comprehensive platform for tracking movies and TV series consumption. It allows users to curate personal watchlists, rate content, and receive data-driven recommendations.
 
-## Roles
-* [Konstantinos Nikolaou](https://www.linkedin.com/in/konstantinos-nikolaou-975aa62b0/): Frontend
-* Me: Backend, Database Design
+Beyond standard tracking, the application implements **gamification mechanics** (badges, leaderboards) to drive user engagement and features a customizable UI with Dark/Light mode support.
 
-## Technologies Used
+*Developed as a Capstone University Assignment.*
 
-### Frontend
-* React.js
-* Bootstrap (for quick UI development)
-* Chart.js (for analytics)
+---
 
-### Backend
-* Node.js
-* Express.js
-* CryptoJS (for password hashing)
+## 👥 Engineering Team & Roles
+
+* **[Konstantinos Nikolaou](https://www.linkedin.com/in/konstantinos-nikolaou-975aa62b0/)**: Frontend Development & UI/UX
+* **Antonios Vatousis**: Backend Engineering & Database Architecture
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+### Backend (My Focus)
+* **Runtime:** Node.js & Express.js (RESTful API Architecture)
+* **Security:** User Authentication & Password Hashing (CryptoJS)
+* **Data Integration:** TMDB API (External data fetching & synchronization)
 
 ### Database
-* MySQL/MariaDB
+* **System:** MySQL / MariaDB
+* **Design:** Relational Schema (Complex relationships between Users, Reviews, and Metadata)
 
-### Movie/Series Data
-* TMDB API (The Movie Database)
+### Frontend
+* **Framework:** React.js
+* **Styling:** Bootstrap
+* **Analytics:** Chart.js (Visualizing user viewing habits)
 
-## Features
-* **User Authentication**: Secure login and registration with password hashing.
+---
+
+## ✨ Key Features
+
+### 1. Secure Authentication
+Robust login and registration system using hashed passwords for data security.
 ![Login Page Screenshot](movie-tracking/login.png)
 
-* **Watchlist Management**: Users can add, remove, and manage their watchlists.
+### 2. Watchlist & Library Management
+Users can create multiple lists (Watched, Plan to Watch) and manage their personal library with dynamic CRUD operations.
 
-* **Rating and Reviews**: Users can rate movies/series and write reviews.
-![Watchlist Screenshot](movie-tracking/review.png)
+### 3. Community & Reviews
+A complete rating system allowing users to write reviews and rate content, fostering a community-driven environment.
+![Reviews Screenshot](movie-tracking/review.png)
 
-* **Personalized Recommendations**: Based on user preferences and watch history.
-
-* **Gamification**: Badges, achievements, and leaderboards to encourage engagement.
+### 4. Gamification & Leaderboards
+To enhance engagement, the system tracks user activity and awards points/badges, displaying top users on a global leaderboard.
 ![Leaderboard Screenshot](movie-tracking/leaderboard.png)

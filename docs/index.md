@@ -21,7 +21,7 @@ My focus isn't just on writing code, but on understanding the infrastructure tha
 ### [📚 My Knowledge Base](knowledge-base/)
 *The core of this website.* A collection of technical notes, troubleshooting guides, and documentation for Linux, Docker, and various software setups.
 
-### [🎬 Project: Movie Tracking App](projects/websites/movie-tracking/)
+### [🎬 Project: Movie Tracking App](projects/websites/movie-tracking.md)
 A Full Stack web application (Node.js & MySQL) for tracking movies and TV series, featuring user authentication and gamification.
 
 ---
@@ -41,6 +41,7 @@ You can find me and my code repositories here:
 I actively contribute to the **Greek localization (L10n)** of various open-source and privacy-focused projects via Crowdin and Weblate.
 
 **Recent Contributions:**
+
 * **Self-Hosting:** Kavita, NextDNS
 * **Privacy & Comms:** Session, SimpleX Chat, Mumble, InviZible Pro
 * **Dev & Gaming:** Godot Engine, Prism Launcher
