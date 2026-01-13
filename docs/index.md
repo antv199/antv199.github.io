@@ -10,9 +10,9 @@ My focus isn't just on writing code, but on understanding the infrastructure tha
 
 ## 🚀 What I Do
 
-* **System Administration:** Managing Linux (Debian/Ubuntu) environments, Docker containers, and Self-Hosted services (Home-Lab).
-* **Data & Backend:** Building REST APIs (Node.js), managing Databases (MySQL), and automating data reporting (Excel/ERP).
-* **Open Source:** contributing to the localization of privacy-focused tools.
+* **System Administration:** Managing Linux (Debian/Ubuntu) environments, Docker containers, and Self-Hosted services.
+* **Technical Documentation:** Analyzing game engines (Godot, NeoX, Unreal) and documenting configuration file locations, hardware requirements, and performance fixes on community wikis.
+* **Data & Backend:** Building REST APIs (Node.js) and managing Databases (MySQL).
 
 ---
 
@@ -33,16 +33,29 @@ You can find me and my code repositories here:
 * **LinkedIn:** [Antonios Vatousis](https://www.linkedin.com/in/anthony-vatousis/)
 * **GitHub:** [antv199](https://github.com/antv199)
 * **GitLab:** [antv199](https://gitlab.com/anthonyv159)
+* **PCGamingWiki:** [Anthonyv155](https://www.pcgamingwiki.com/wiki/User:Anthonyv155)
 
 ---
 
 ## 🌍 Open Source Contributions
 
-I actively contribute to the **Greek localization (L10n)** of various open-source and privacy-focused projects via Crowdin and Weblate.
+### Technical Documentation & Wiki Maintenance
 
-**Recent Contributions:**
+* **PCGamingWiki:** Active contributor (as Anthonyv155) focused on documenting engine-specific fixes, middleware identification, and hardware compatibility for titles like Valorant, Farlight 84, and Shatterline.
+* **Knowledge Base:** Maintaining a personal repository of Linux and Docker troubleshooting guides.
+
+### Localization (L10n)
 
 * **Self-Hosting:** Kavita, NextDNS
 * **Privacy & Comms:** Session, SimpleX Chat, Mumble, InviZible Pro
 * **Dev & Gaming:** Godot Engine, Prism Launcher
 * **Utilities:** uBlock Origin
+
+---
+
+## 🛠️ PCGamingWiki Technical Contributor
+
+- **Technical Documentation:** Authored and maintained comprehensive technical pages for games such as Spectre Divide, Farlight 84, and Bloons TD Battles 2. Focused on engine analysis, middleware identification, and detailed file structure documentation.
+- **Troubleshooting & Configuration:** Developed guides for disabling launchers (e.g., Borderlands: GOTY Enhanced), and identified hidden registry keys for improved software portability (e.g., SpongeBob SquarePants series).
+- **Infrastructure Analysis:** Documented game engine usage (Unreal Engine, NeoX) and tracked middleware implementations (Oodle, etc.) across multiple platforms and titles.
+- **Diligence & Maintenance:** Ensured documentation accuracy by updating lifecycle changes, replacing broken references with archived links, and maintaining technical pages for evolving software.
