@@ -2,7 +2,7 @@ site_name: antv199
 
 nav:
  - Home: "index.md"
- - My Knowledge Base: "https://projectantv.fyi"
+ - My Knowledge Base: "/knowledge-base/"
  - Projects:
     - Websites:
        - Movie Tracking: "projects/websites/movie-tracking.md"
