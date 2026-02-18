@@ -211,3 +211,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Do NOT ignore the knowledge-base folder
+# knowledge-base/

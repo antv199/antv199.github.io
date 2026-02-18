@@ -2,7 +2,19 @@ site_name: antv199
 
 nav:
  - Home: "index.md"
- - My Knowledge Base: "/knowledge-base/"
+ - My Knowledge Base:
+     - Overview: "knowledge-base/index.md"
+     - Jellyfin:
+         - NVIDIA Hardware Acceleration: "knowledge-base/jellyfin/nvidia-hw-acc.md"
+     - Games:
+         - Helldivers 2: "knowledge-base/games/helldivers2.md"
+         - Borderlands GOTY: "knowledge-base/games/borderlandsgoty.md"
+     - Windows Fixes:
+         - Game Bar: "knowledge-base/windows-fixes/game-bar.md"
+         - New Context Menu: "knowledge-base/windows-fixes/new-context-menu.md"
+         - Microsoft Store: "knowledge-base/windows-fixes/microsoft-store.md"
+     - Meta Quest 3/3S:
+         - Performance Tips: "knowledge-base/quest3-3s/performance-tips.md"
  - Projects:
     - Websites:
        - Movie Tracking: "projects/websites/movie-tracking.md"
