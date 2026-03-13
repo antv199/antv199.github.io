@@ -19,11 +19,11 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
-        <title>NVIDIA Hardware Acceleration - antv199</title>
+        <title>NVIDIA Hard. Acc. for Jellyfin - antv199</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              NVIDIA Hardware Acceleration
+              NVIDIA Hard. Acc. for Jellyfin
             
           </span>
         </div>
@@ -356,7 +356,7 @@
   <span class="md-ellipsis">
     
   
-    Jellyfin
+    Self-hosting
   
 
     
@@ -372,7 +372,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Jellyfin
+    Self-hosting
   
 
           </label>
@@ -399,7 +399,7 @@
   <span class="md-ellipsis">
     
   
-    NVIDIA Hardware Acceleration
+    NVIDIA Hard. Acc. for Jellyfin
   
 
     
@@ -417,7 +417,7 @@
   <span class="md-ellipsis">
     
   
-    NVIDIA Hardware Acceleration
+    NVIDIA Hard. Acc. for Jellyfin
   
 
     
@@ -1251,7 +1251,7 @@
 
 
 
-  <h1>NVIDIA Hardware Acceleration</h1>
+  <h1>NVIDIA Hard. Acc. for Jellyfin</h1>
 
 <h2 id="a-small-intro-if-you-will">A small intro, if you will<a class="headerlink" href="#a-small-intro-if-you-will" title="Permanent link">#</a></h2>
 <p>Jellyfin is great, on its own. Having the entirety of my media library presented and interacted with (Netflix-style) is amazing, and all of that without paying a subscription (like Plex) and being open source.</p>
@@ -1260,9 +1260,30 @@
 <p>For my approach of adding support for Hardware Acceleration in my Jellyfin server, I will be using an Ubuntu Server (24.04) system with a NVIDIA GTX 1050 Ti, as it supports the codecs that my media library is currently encoded at.</p>
 <hr />
 <h2 id="1-preparing-the-nvidia-gpu">1. Preparing the NVIDIA GPU<a class="headerlink" href="#1-preparing-the-nvidia-gpu" title="Permanent link">#</a></h2>
-<p>Ubuntu (my server distro of choice) has a CLI tool (<a href="https://ubuntu.com/server/docs/nvidia-drivers-installation">ubuntu-drivers</a>) that picks up the supported driver versions for the system:</p>
-<p><code>sudo ubuntu-drivers --gpgpu list</code></p>
-<p>a. Install the latest driver version with: <code>sudo ubuntu-drivers install</code></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Ubuntu</label><label for="__tabbed_1_2">Debian</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Ubuntu has a CLI tool (<a href="https://ubuntu.com/server/docs/nvidia-drivers-installation">ubuntu-drivers</a>) that picks up the supported driver versions for the system:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>ubuntu-drivers<span class="w"> </span>--gpgpu<span class="w"> </span>list
+</code></pre></div>
+<p>a. Install the latest driver version with:
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>ubuntu-drivers<span class="w"> </span>install
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p>a.1 Open the repo sources list and update</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>nano<span class="w"> </span>/etc/apt/sources.list
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+</code></pre></div>
+<p>a.2 Add the following line to the end of the file:</p>
+<div class="highlight"><pre><span></span><code>deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+</code></pre></div>
+<p>a.3
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>linux-headers-<span class="k">$(</span>uname<span class="w"> </span>-r<span class="k">)</span>
+</code></pre></div></p>
+</div>
+</div>
+</div>
 <p>b. After that, run <code>nvidia-smi</code> on the terminal. It should look like this:
     <div class="highlight"><pre><span></span><code>+-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.120                Driver Version: 550.120        CUDA Version: 12.4     |
@@ -1370,6 +1391,8 @@ b. Go to the Admin Dashboard (Top left user icon) -&gt; (Under Administration) D
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -1408,7 +1431,7 @@ b. Go to the Admin Dashboard (Top left user icon) -&gt; (Under Administration) D
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.top", "content.tabs.link"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
