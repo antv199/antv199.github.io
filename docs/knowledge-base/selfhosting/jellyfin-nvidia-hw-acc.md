@@ -10,11 +10,38 @@ For my approach of adding support for Hardware Acceleration in my Jellyfin serve
 ---
 
 ## 1. Preparing the NVIDIA GPU
-Ubuntu (my server distro of choice) has a CLI tool ([ubuntu-drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)) that picks up the supported driver versions for the system:
 
-```sudo ubuntu-drivers --gpgpu list```
 
-a. Install the latest driver version with: ``sudo ubuntu-drivers install``
+=== "Ubuntu"
+    Ubuntu has a CLI tool ([ubuntu-drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation)) that picks up the supported driver versions for the system:
+
+    ```sh
+    sudo ubuntu-drivers --gpgpu list
+    ```
+
+    a. Install the latest driver version with:
+    ```sh
+    sudo ubuntu-drivers install
+    ```
+
+=== "Debian"
+    a.1 Open the repo sources list and update
+
+    ```sh
+    sudo nano /etc/apt/sources.list
+    sudo apt update
+    ```
+
+    a.2 Add the following line to the end of the file:
+
+    ```
+    deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+    ```
+
+    a.3
+    ```sh
+    sudo apt install linux-headers-$(uname -r)
+    ```
 
 b. After that, run `nvidia-smi` on the terminal. It should look like this:
 	```
@@ -62,11 +89,11 @@ a. Simply visit the Portainer panel (unless you chose another port, [the documen
 
 b. Go to Host -> Setup
 
-  ![alt text](nvidia-hw-acc/portainerhostsetup.png)
+  ![alt text](jellyfin-nvidia-hw-acc/portainerhostsetup.png)
 
 c. Toggle 'Show GPU in the UI' on, press 'Add GPU', name it whatever you want and paste the UUID you copied earlier. It should look like this:
 
-  ![alt text](nvidia-hw-acc/portainergpuadd.png)
+  ![alt text](jellyfin-nvidia-hw-acc/portainergpuadd.png)
 
 d. Click on 'Save configuration'.
 
@@ -119,14 +146,14 @@ Save it and deploy the stack.
 a. Go to the Jellyfin web interface (http://IPADDRESS:8096) and login with your credentials.
 b. Go to the Admin Dashboard (Top left user icon) -> (Under Administration) Dashboard -> Playback -> Transcoding.
 
-![alt text](nvidia-hw-acc/jellyfinuserbutton.png)
+![alt text](jellyfin-nvidia-hw-acc/jellyfinuserbutton.png)
 
-![alt text](nvidia-hw-acc/jellyfinadmindash.png)
+![alt text](jellyfin-nvidia-hw-acc/jellyfinadmindash.png)
 
-![alt text](nvidia-hw-acc/jellyfintcadmingmenu.png)
+![alt text](jellyfin-nvidia-hw-acc/jellyfintcadmingmenu.png)
 
 c. On the Hardware Acceleration section, select "NVIDIA NVDEC" as the hardware acceleration method. And, depending on your GPU, you can select the appropriate codecs.
 
-![alt text](nvidia-hw-acc/jellyfintcpage.png)
+![alt text](jellyfin-nvidia-hw-acc/jellyfintcpage.png)
 
 d. Scroll down, save the changes and restart the Jellyfin server.

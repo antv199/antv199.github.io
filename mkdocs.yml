@@ -4,8 +4,8 @@ nav:
  - Home: "index.md"
  - My Knowledge Base:
      - Overview: "knowledge-base/index.md"
-     - Jellyfin:
-         - NVIDIA Hardware Acceleration: "knowledge-base/jellyfin/nvidia-hw-acc.md"
+     - Self-hosting:
+         - NVIDIA Hard. Acc. for Jellyfin: "knowledge-base/selfhosting/jellyfin-nvidia-hw-acc.md"
      - Games:
          - Helldivers 2: "knowledge-base/games/helldivers2.md"
          - Borderlands GOTY: "knowledge-base/games/borderlandsgoty.md"
@@ -26,6 +26,7 @@ nav:
 theme:
  features:
     - navigation.top
+    - content.tabs.link
  name: material
  palette:
     - scheme: default
@@ -51,10 +52,13 @@ markdown_extensions:
     toc_depth: "3"
     permalink: "#"
 
+ - attr_list
  - pymdownx.caret
  - pymdownx.mark
  - pymdownx.tilde
  - pymdownx.superfences
+ - pymdownx.tabbed:
+      alternate_style: true
  - pymdownx.highlight
  - pymdownx.inlinehilite
 
