@@ -1,9 +1,9 @@
 site_name: antv199
 
 # Matrix Stuff
-extra_files:
-  - .well-known/matrix/client
-  - .well-known/matrix/server
+exclude_docs: |
+  !.well-known/matrix/client
+  !.well-known/matrix/server
 
 nav:
  - Home: "index.md"
