@@ -89,11 +89,11 @@ a. Simply visit the Portainer panel (unless you chose another port, [the documen
 
 b. Go to Host -> Setup
 
-  ![alt text](jellyfin-nvidia-hw-acc/portainerhostsetup.png)
+  ![alt text](nvidia-hard-accel/portainerhostsetup.png)
 
 c. Toggle 'Show GPU in the UI' on, press 'Add GPU', name it whatever you want and paste the UUID you copied earlier. It should look like this:
 
-  ![alt text](jellyfin-nvidia-hw-acc/portainergpuadd.png)
+  ![alt text](nvidia-hard-accel/portainergpuadd.png)
 
 d. Click on 'Save configuration'.
 
@@ -146,14 +146,14 @@ Save it and deploy the stack.
 a. Go to the Jellyfin web interface (http://IPADDRESS:8096) and login with your credentials.
 b. Go to the Admin Dashboard (Top left user icon) -> (Under Administration) Dashboard -> Playback -> Transcoding.
 
-![alt text](jellyfin-nvidia-hw-acc/jellyfinuserbutton.png)
+![alt text](nvidia-hard-accel/jellyfinuserbutton.png)
 
-![alt text](jellyfin-nvidia-hw-acc/jellyfinadmindash.png)
+![alt text](nvidia-hard-accel/jellyfinadmindash.png)
 
-![alt text](jellyfin-nvidia-hw-acc/jellyfintcadmingmenu.png)
+![alt text](nvidia-hard-accel/jellyfintcadmingmenu.png)
 
 c. On the Hardware Acceleration section, select "NVIDIA NVDEC" as the hardware acceleration method. And, depending on your GPU, you can select the appropriate codecs.
 
-![alt text](jellyfin-nvidia-hw-acc/jellyfintcpage.png)
+![alt text](nvidia-hard-accel/jellyfintcpage.png)
 
 d. Scroll down, save the changes and restart the Jellyfin server.

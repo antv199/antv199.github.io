@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Important for pushing to external remotes
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,11 +27,9 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Build Site
-        # This creates a 'site' folder with your finished HTML
         run: mkdocs build 
 
       - name: Deploy to GitHub Pages
-        # This replaces 'gh-deploy' to use the already built 'site' folder
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: site 
@@ -40,5 +40,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'personal-website' # Change this to your CF project name
+          projectName: 'personal-website' 
           directory: site

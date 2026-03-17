@@ -10,7 +10,8 @@ nav:
  - My Knowledge Base:
      - Overview: "knowledge-base/index.md"
      - Self-hosting:
-         - NVIDIA Hard. Acc. for Jellyfin: "knowledge-base/selfhosting/jellyfin-nvidia-hw-acc.md"
+         - Jellyfin:
+            - NVIDIA Hard. Acc. for Jellyfin: "knowledge-base/selfhosting/jellyfin/nvidia-hard-accel.md"
      - Games:
          - Helldivers 2: "knowledge-base/games/helldivers2.md"
          - Borderlands GOTY: "knowledge-base/games/borderlandsgoty.md"
