@@ -2,7 +2,7 @@
 
 ### Junior IT Engineer | SysAdmin Enthusiast | Data Operations
 
-Welcome to my digital portfolio and documentation hub. I am an undergraduate student at the **University of Ioannina (Department of Informatics & Telecommunications)** with a hands-on approach to technology.
+Welcome to my digital portfolio and documentation hub. I am an undergraduate computer science student with a hands-on approach to technology.
 
 My focus isn't just on writing code, but on understanding the infrastructure that runs it. I document my journey, my fixes, and my projects to bridge the gap between theory and real-world application.
 
