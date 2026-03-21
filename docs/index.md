@@ -1,6 +1,4 @@
-# Antonios Vatousis
-
-### Junior IT Engineer | SysAdmin Enthusiast | Data Operations
+## Junior IT Engineer | SysAdmin Enthusiast | Data Operations
 
 Welcome to my digital portfolio and documentation hub. I am an undergraduate computer science student with a hands-on approach to technology.
 
