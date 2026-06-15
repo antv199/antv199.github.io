@@ -24,26 +24,16 @@ A Full Stack web application (Node.js & MySQL) for tracking movies and TV series
 
 ---
 
-## 🌐 Connect & Code
+## 🌍 Open Source & Technical Documentation
 
-You can find me and my code repositories here:
+### Technical Maintainer @ PCGamingWiki
+Active contributor focused on game engine analysis, middleware identification, and hardware compatibility. I break games down so others can actually get them to run properly. 
+* **Engine & Middleware Analysis:** Documented engine structures (Unreal, Godot, NeoX) and middleware implementations across dozens of titles.
+* **Optimization & Fixes:** Authored guides for disabling bloatware launchers (e.g., *Borderlands: GOTY Enhanced*) and locating hidden configuration registries for better software portability.
+* **Platform Archival:** Maintained strict technical documentation for evolving software, tracking lifecycle changes, updating system requirements, and ensuring accurate availability tracking for PC platforms like Steam and GOG.
 
-* **LinkedIn:** [Antonios Vatousis](https://www.linkedin.com/in/anthony-vatousis/)
-* **GitHub:** [antv199](https://github.com/antv199)
-* **GitLab:** [antv199](https://gitlab.com/anthonyv159)
-* **PCGamingWiki:** [Anthonyv155](https://www.pcgamingwiki.com/wiki/User:Anthonyv155)
-
----
-
-## 🌍 Open Source Contributions
-
-### Technical Documentation & Wiki Maintenance
-
-* **PCGamingWiki:** Active contributor (as Anthonyv155) focused on documenting engine-specific fixes, middleware identification, and hardware compatibility for titles like Valorant, Farlight 84, and Shatterline.
-* **Knowledge Base:** Maintaining a personal repository of Linux and Docker troubleshooting guides.
-
-### Localization (L10n)
-
+### Software Localization (L10n)
+Passionate about making privacy tools and gaming utilities accessible across languages.
 * **Self-Hosting:** Kavita, NextDNS
 * **Privacy & Comms:** Session, SimpleX Chat, Mumble, InviZible Pro
 * **Dev & Gaming:** Godot Engine, Prism Launcher
@@ -51,9 +41,9 @@ You can find me and my code repositories here:
 
 ---
 
-## 🛠️ PCGamingWiki Technical Contributor
+## 🌐 Connect & Code
 
-- **Technical Documentation:** Authored and maintained comprehensive technical pages for games such as Spectre Divide, Farlight 84, and Bloons TD Battles 2. Focused on engine analysis, middleware identification, and detailed file structure documentation.
-- **Troubleshooting & Configuration:** Developed guides for disabling launchers (e.g., Borderlands: GOTY Enhanced), and identified hidden registry keys for improved software portability (e.g., SpongeBob SquarePants series).
-- **Infrastructure Analysis:** Documented game engine usage (Unreal Engine, NeoX) and tracked middleware implementations (Oodle, etc.) across multiple platforms and titles.
-- **Diligence & Maintenance:** Ensured documentation accuracy by updating lifecycle changes, replacing broken references with archived links, and maintaining technical pages for evolving software.
+* **LinkedIn:** [Antonios Vatousis](https://www.linkedin.com/in/anthony-vatousis/)
+* **GitHub:** [antv199](https://github.com/antv199)
+* **GitLab:** [antv199](https://gitlab.com/anthonyv159)
+* **PCGamingWiki:** [Anthonyv155](https://www.pcgamingwiki.com/wiki/User:Anthonyv155)
