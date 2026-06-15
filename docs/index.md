@@ -27,7 +27,7 @@ A Full Stack web application (Node.js & MySQL) for tracking movies and TV series
 ## 🌍 Open Source & Technical Documentation
 
 ### Technical Maintainer @ PCGamingWiki
-Active contributor focused on game engine analysis, middleware identification, and hardware compatibility. I break games down so others can actually get them to run properly. 
+Active contributor focused on game engine analysis, middleware identification, and hardware compatibility. I break games down so others can actually get them to run properly.
 * **Engine & Middleware Analysis:** Documented engine structures (Unreal, Godot, NeoX) and middleware implementations across dozens of titles.
 * **Optimization & Fixes:** Authored guides for disabling bloatware launchers (e.g., *Borderlands: GOTY Enhanced*) and locating hidden configuration registries for better software portability.
 * **Platform Archival:** Maintained strict technical documentation for evolving software, tracking lifecycle changes, updating system requirements, and ensuring accurate availability tracking for PC platforms like Steam and GOG.
