@@ -7,6 +7,7 @@ exclude_docs: |
 
 nav:
  - Home: "index.md"
+ - Portofolio: "portofolio.md"
  - My Knowledge Base:
      - Overview: "knowledge-base/index.md"
      - Self-hosting:
@@ -62,6 +63,8 @@ markdown_extensions:
  - pymdownx.caret
  - pymdownx.mark
  - pymdownx.tilde
+ - admonition
+ - pymdownx.details
  - pymdownx.superfences
  - pymdownx.tabbed:
       alternate_style: true
