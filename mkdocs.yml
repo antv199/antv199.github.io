@@ -29,6 +29,7 @@ nav:
        - Cooking App: "projects/apps/cooking-app.md"
     - IoT & Embedded:
        - Environment Monitor: "projects/embedded/enviroment-monitor.md"
+              - NVIDIA Hardware Acceleration for Jellyfin: "knowledge-base/selfhosting/jellyfin/nvidia-hard-accel.md"
 
 theme:
  features:

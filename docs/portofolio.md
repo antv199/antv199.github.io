@@ -75,11 +75,21 @@
 
 ---
 
+## [Certifications](https://www.linkedin.com/in/anthony-vatousis/details/certifications/)
+
+??? note "Cloud Infastructure"
+    * AWS
+        * **ECS Fundamentals**
+        * **ECS Networking**
+        * **ECS Security**
+
+
 ## 🛠️ Technical Skills & Languages
 
 ??? note "Core Skills"
     * **Microcontrollers:**
     * **Programming Languages:** Python, JavaScript, C/C++, Bash/Shell Scripting
+    * **CI/CD:** Basic knowledge of GitHub Actions, GitLab CI/CD
 
 ??? note "Languages"
     * **Greek:** Native proficiency
