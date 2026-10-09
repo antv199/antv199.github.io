@@ -5,6 +5,7 @@
 
 !!! success "Sep 2018 – Jun 2021 | High School Diploma, General Education"
     - **Institution:** 1st General Lyceum of Oreokastro
+
 ---
 
 ## 💼 Work Experience
@@ -24,28 +25,51 @@
 ??? abstract "2015 - 2023 | Freelance IT Technician & HomeLab Administrator @ Self-employed"
     - **Location:** Thessaloniki, Central Macedonia, Greece - Hybrid
     - **Duration:** 8 yrs
-    - _**Details:**_ Providing hardware and software troubleshooting services for private clients (diagnosis, repairs, upgrades). _Home-Lab Administration: Hosting and maintaining a personal (Ubuntu/Debian-based) server environment._ Managing containerized applications using Docker and Portainer (Self-hosted services, Media servers, Ad-blockers). _Documenting technical solutions and troubleshooting steps in a personal Knowledge Base (Git-based).
+    - **Details:**
+        - Providing hardware and software troubleshooting services for private clients (diagnosis, repairs, upgrades).
+        - Home-Lab Administration: Hosting and maintaining a personal (Ubuntu/Debian-based) server environment.
+        - Managing containerized applications using Docker and Portainer (Self-hosted services, Media servers, Ad-blockers).
+        - Documenting technical solutions and troubleshooting steps in a personal Knowledge Base (Git-based).
     - **Skills:** Markdown, Batch Programming, Docker, Linux, Networking
 
 ---
 
 ## 🚀 Projects
 
-??? abstract "May 2025 | Personal Portfolio Website" _**Associated with:** University of Ioannina_ **Details:** Developed a personal portfolio website to showcase my projects, skills, and experiences. The website is built using modern web technologies and is fully responsive. * **Skills:** HTML, CSS, JavaScript, MkDocs (Python)
+??? abstract "May 2025 | Personal Portfolio Website"
+    - **Associated with:** University of Ioannina
+    - **Details:** Developed a personal portfolio website to showcase my projects, skills, and experiences. The website is built using modern web technologies and is fully responsive.
+    - **Skills:** HTML, CSS, JavaScript, MkDocs (Python)
 
     [View Project](https://projectantv.fyi/knowledge-base/){ .md-button .md-button--primary }
 
-!!! success "May 2025 | Recipe Manager Mobile App" _**Associated with:** University of Ioannina_ **Details:** Developed a cross-platform mobile application for personal recipe management using Flutter. * **Skills:** Dart, Flutter
+!!! success "May 2025 | Recipe Manager Mobile App"
+    - **Associated with:** University of Ioannina
+    - **Details:** Developed a cross-platform mobile application for personal recipe management using Flutter.
+    - **Skills:** Dart, Flutter
 
     [View Project](https://projectantv.fyi/projects/apps/cooking-app/){ .md-button .md-button--primary }
 
-!!! success "Mar 2025 – May 2025 | Movie Tracking & Gamification Platform" _**Associated with:** University of Ioannina_ **Details:** Developed a Full Stack web application for tracking movie and TV series consumption, featuring gamification elements. * **Skills:** MySQL, Database Design, React.js
+!!! success "Mar 2025 – May 2025 | Movie Tracking & Gamification Platform"
+    - **Associated with:** University of Ioannina
+    - **Details:** Developed a Full Stack web application for tracking movie and TV series consumption, featuring gamification elements.
+    - **Skills:** MySQL, Database Design, React.js
 
     [View Project](https://projectantv.fyi/projects/websites/movie-tracking/){ .md-button .md-button--primary }
 
-!!! success "Oct 2024 – Jan 2025 | IoT Environmental Monitor" _**Associated with:** University of Ioannina_ **Details:** Designed and developed an IoT system for real-time environmental monitoring using the ESP32 microcontroller. The system collects data on temperature, humidity, and air quality, which is then visualized through a web interface. * **Skills:** ESP32, Arduino
+!!! success "Oct 2024 – Jan 2025 | IoT Environmental Monitor"
+    - **Associated with:** University of Ioannina
+    - **Details:** Designed and developed an IoT system for real-time environmental monitoring using the ESP32 microcontroller. The system collects data on temperature, humidity, and air quality, which is then visualized through a web interface.
+    - **Skills:** ESP32, Arduino
 
     [View Project](https://projectantv.fyi/projects/embedded/environment-monitor/){ .md-button .md-button--primary }
+
+!!! success "2022 | CoffeeStream - Streaming Aggregator"
+    - **Associated with:** Personal Project
+    - **Details:** Developed a full-stack content discovery web platform that aggregates streaming service availability, enabling users to search once and immediately pinpoint which platforms stream specific movies and TV series without navigating across services.
+    - **Skills:** PHP, MySQL, JavaScript, HTML5, CSS
+
+    [View Project](projects/websites/coffeestream.md){ .md-button .md-button--primary }
 
 ---
 
@@ -64,7 +88,7 @@
 ## [Certifications](https://www.linkedin.com/in/anthony-vatousis/details/certifications/)
 
 ??? note "Cloud Infrastructure"
-    - _AWS_
+    - **AWS**
         - **ECS Fundamentals**
         - **ECS Networking**
         - **ECS Security**
@@ -75,7 +99,7 @@
 
 ??? note "Core Skills"
     - **Microcontrollers:** ESP32, Arduino
-    - **Programming Languages:** Python, JavaScript, C/C++, Bash/Shell Scripting
+    - **Programming Languages:** Python, JavaScript, C/C++, PHP, Bash/Shell Scripting
     - **CI/CD:** Basic knowledge of GitHub Actions, GitLab CI/CD
 
 ??? note "Languages"
@@ -86,3 +110,4 @@
     - **Examination for the Certificate of Proficiency in English (ECPE)**
         - **Issuer:** University of Michigan
         - **Issued:** Dec 2018
+        - **Skill:** English
