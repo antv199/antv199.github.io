@@ -37,7 +37,6 @@
 ## 🚀 Projects
 
 ??? abstract "May 2025 | Personal Portfolio Website"
-    - **Associated with:** University of Ioannina
     - **Details:** Developed a personal portfolio website to showcase my projects, skills, and experiences. The website is built using modern web technologies and is fully responsive.
     - **Skills:** HTML, CSS, JavaScript, MkDocs (Python)
 
