@@ -457,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../selfhosting/jellyfin/nvidia-hard-accel/" class="md-nav__link">
+      <a href="../../hosting/jellyfin/nvidia-hard-accel/" class="md-nav__link">
         
   
   
@@ -465,6 +465,89 @@
     
   
     NVIDIA Hardware Acceleration for Jellyfin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Website
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Website
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hosting/website/securewithcloudflare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Securing w/ Cloudflare
   
 
     
@@ -1023,6 +1106,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../projects/websites/coffeestream/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CoffeeStream
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1284,8 +1395,8 @@
 <h2 id="disable-game-bar">Disable Game Bar<a class="headerlink" href="#disable-game-bar" title="Permanent link">#</a></h2>
 <p>Even in an unistalled state (which will show a "We can't open this ms-gamingoverlay link dialogue"), Windows will still try to run the Game Bar in the background.</p>
 <p>To disable it completely, open a PowerShell window with administrative privileges and run the following command:
-<div class="highlight"><pre><span></span><code><span class="n">reg</span> <span class="n">add</span> <span class="n">HKEY_CURRENT_USER</span><span class="p">\</span><span class="n">SOFTWARE</span><span class="p">\</span><span class="n">Microsoft</span><span class="p">\</span><span class="n">Windows</span><span class="p">\</span><span class="n">CurrentVersion</span><span class="p">\</span><span class="n">GameDVR</span> <span class="p">/</span><span class="n">f</span> <span class="p">/</span><span class="n">t</span> <span class="n">REG_DWORD</span> <span class="p">/</span><span class="n">v</span> <span class="s2">&quot;AppCaptureEnabled&quot;</span> <span class="p">/</span><span class="n">d</span> <span class="n">0</span>
-<span class="n">reg</span> <span class="n">add</span> <span class="n">HKEY_CURRENT_USER</span><span class="p">\</span><span class="n">System</span><span class="p">\</span><span class="n">GameConfigStore</span> <span class="p">/</span><span class="n">f</span> <span class="p">/</span><span class="n">t</span> <span class="n">REG_DWORD</span> <span class="p">/</span><span class="n">v</span> <span class="s2">&quot;GameDVR_Enabled&quot;</span> <span class="p">/</span><span class="n">d</span> <span class="n">0</span>
+<div class="highlight"><pre><span></span><code><span class="n">reg</span> <span class="n">add</span> <span class="n">HKEY_CURRENT_USER</span><span class="p">\</span><span class="n">SOFTWARE</span><span class="p">\</span><span class="n">Microsoft</span><span class="p">\</span><span class="n">Windows</span><span class="p">\</span><span class="n">CurrentVersion</span><span class="p">\</span><span class="n">GameDVR</span> <span class="p">/</span><span class="n">f</span> <span class="p">/</span><span class="n">t</span> <span class="n">REG_DWORD</span> <span class="p">/</span><span class="n">v</span> <span class="s2">"AppCaptureEnabled"</span> <span class="p">/</span><span class="n">d</span> <span class="n">0</span>
+<span class="n">reg</span> <span class="n">add</span> <span class="n">HKEY_CURRENT_USER</span><span class="p">\</span><span class="n">System</span><span class="p">\</span><span class="n">GameConfigStore</span> <span class="p">/</span><span class="n">f</span> <span class="p">/</span><span class="n">t</span> <span class="n">REG_DWORD</span> <span class="p">/</span><span class="n">v</span> <span class="s2">"GameDVR_Enabled"</span> <span class="p">/</span><span class="n">d</span> <span class="n">0</span>
 </code></pre></div></p>
 
 
