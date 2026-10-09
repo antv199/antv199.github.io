@@ -7,7 +7,7 @@ nav:
       - Overview: "knowledge-base/index.md"
       - Self-hosting:
           - Jellyfin:
-              - NVIDIA Hardware Acceleration for Jellyfin: "knowledge-base/selfhosting/jellyfin/nvidia-hard-accel.md"
+              - NVIDIA Hardware Acceleration for Jellyfin: "knowledge-base/hosting/jellyfin/nvidia-hard-accel.md"
       - Games:
           - Helldivers 2: "knowledge-base/games/helldivers2.md"
           - Borderlands GOTY: "knowledge-base/games/borderlandsgoty.md"
